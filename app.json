@@ -3,10 +3,27 @@
     "name": "gamezone",
     "slug": "gamezone",
     "version": "1.0.0",
+    "newArchEnabled": true,
     "platforms": [
       "ios",
       "android",
       "web"
-    ]
+    ],
+    "plugins": [
+      [
+        "expo-font",
+        {
+          "fonts": []
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "9199e61a-a7ae-4ca3-ac9a-d8d4b64e4a38"
+      }
+    },
+    "android": {
+      "package": "com.surajwe.gamezone"
+    }
   }
 }
